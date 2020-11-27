@@ -21,4 +21,5 @@ while num <= 3:
     except:
         print('The value should be integer!')
         num += 1
-print('ERROR: Entering the Correct Age!!')
+if num == 4:
+    print('ERROR: Entering the Correct Age!!')
