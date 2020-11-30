@@ -34,7 +34,7 @@ def drawCircle():
     terry.back(30)
     terry.pendown()
     A = range(3, 6, 2)
-
+    # for loop to draw 2 circles
     for x in A:
         color = random.choice(colors)
         terry.width(x)
