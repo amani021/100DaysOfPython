@@ -1,4 +1,4 @@
-# -------- DAY 5 "" --------
+# -------- DAY 5 "Draw Shapes Using Turtle Within GUI" --------
 # Goal: Using turtle to draw 2 shapes (star & circle) when click on button
 import turtle
 import random
