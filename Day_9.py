@@ -11,11 +11,11 @@ root.title('100 Days Of Python - Day 9')
 root.configure(background='#E0E0E0')
 
 # --------------- CREATE A FRAME ---------------
-frame = LabelFrame(root, text=' VALIDATE PASSWORD ', bg='#E0E0E0', fg='#00695C', font=5, padx=75, pady=75)
+frame = LabelFrame(root, text=' VALIDATE PASSWORD ', bg='#E0E0E0', fg='#00695C', font=5, padx=75, pady=65)
 frame.pack(padx=20, pady=15)
 
 infoLabel = Label(frame, text='Hi, this program for validate your password.', bg='#E0E0E0', fg='#424242', font=('time', 16, 'bold'))
-infoLabel.grid(row=0, column=0, columnspan=2, pady=20)
+infoLabel.grid(row=0, column=0, columnspan=2, pady=25)
 
 askLabel = Label(frame, text='Enter a Password: ', bg='#E0E0E0', font=('time', 14, 'bold'))
 askLabel.grid(row=1, column=0, pady=20)
@@ -41,9 +41,9 @@ def validatePassword():
 
 # --------------- BUTTONS & LABEL FOR NOTES ---------------
 button = Button(frame, text='Validate', bg='#009688', fg='#fff', height=2, font=3, command=validatePassword)
-button.grid(row=2, column=0, columnspan=2, sticky='snew', pady=20)
+button.grid(row=2, column=0, columnspan=2, sticky='snew', pady=21)
 
 validate_info = Label(frame, text='', width=45, bg='#E0E0E0', font=7)
-validate_info.grid(row=3, column=0, columnspan=2, pady=20)
+validate_info.grid(row=3, column=0, columnspan=2)
 
 root.mainloop()
